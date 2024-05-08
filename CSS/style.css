@@ -11,6 +11,8 @@ body {
     font-family: "Salsa", cursive, sans-serif;
 }
 
+/* Hero Section Start */
+
 #hero_section {
     padding: 1px;
     min-height: 100vh;
@@ -49,10 +51,138 @@ audio::-webkit-media-controls-enclosure {
 
 .hero_bottom_img {
     width: 250px;
-    margin: 3rem 0;
 }
 
-@media screen and (max-width: 800px) {
+.hero_bottom_img_container {
+    margin-top: 5rem;
+}
+
+/* Hero Section End */
+
+
+/* Wishing Section Start */
+
+.horizontal-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 800px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+.horizontal-line {
+    height: 2px;
+    background-color: #fbd8a4;
+    width: 468px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fbd8a4;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+#wishing_section {
+    background-color: #f99501;
+    padding-block: 1em;
+    padding-inline: 1rem;
+}
+
+.eid_celebrating_img {
+    width: 100%;
+    max-width: 900px;
+    margin-inline: auto;
+    display: block;
+}
+
+.wishingText {
+    font-family: "Style Script", cursive;
+    font-size: 62px;
+    color: #1E1E1E;
+    text-align: center;
+    font-weight: 400;
+    margin-block: 2.5rem;
+}
+
+/* White Card Section Start */
+.white_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.white_card {
+    max-width: 550px;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 24px;
+}
+
+.little_boy {
+    max-width: 300px;
+    margin-left: -5rem;
+    z-index: 1;
+}
+
+.white_card p {
+    font-size: 2rem;
+}
+
+.white_card_first {
+    margin-bottom: 1em;
+}
+
+/* White Card Section End */
+
+/* Praying And Reading Quran Section Start */
+.praying_and_reading_quran {
+    display: flex;
+    max-width: 887px;
+    background: #FFF6E9;
+    margin-inline: auto;
+    border-radius: 24px;
+    padding: 4rem;
+}
+
+.praying_and_reading_quran img {
+    width: 50%;
+}
+
+/* Praying And Reading Quran Section End */
+
+/* Thank You Section Start */
+.thank_you_text_container {
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+.thank_you_text_container p {
+    font-size: 24px;
+    margin-block: 1em;
+}
+
+.thank_you_text_container h3 {
+    margin-bottom: 1em;
+    color: #1E1E1E;
+    font-family: "Style Script", cursive;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.my_name {
+    text-align: end;
+}
+
+/* Thank You Section End */
+
+/* Wishing Section End */
+
+/* Media Query Section Start */
+@media screen and (max-width: 850px) {
     .music-and-paragraph {
         margin-left: 1rem;
         margin-top: 0;
@@ -76,4 +206,45 @@ audio::-webkit-media-controls-enclosure {
     .hero_para {
         font-size: 32px;
     }
+
+    .white_card p {
+        font-size: 1.25rem;
+    }
+
+    .white_card {
+        padding-block: 1rem;
+    }
+
+    .little_boy {
+        max-width: 150px;
+    }
+
+    .white_card_container {
+        margin-left: 4rem;
+    }
 }
+
+@media screen and (max-width: 540px) {
+    .wishingText {
+        font-size: 2rem;
+    }
+
+    .white_card {
+        padding-block: 1rem;
+        padding-inline: 1rem;
+    }
+
+    .white_card p {
+        font-size: 1rem;
+    }
+
+    .thank_you_text_container h3 {
+        font-size: 2rem;
+    }
+
+    .second {
+        max-width: 220px;
+    }
+}
+
+/* Media Query Section End */

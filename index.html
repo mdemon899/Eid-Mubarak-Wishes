@@ -12,10 +12,11 @@
 </head>
 
 <body>
+    <!-- Hero Section Start -->
     <section id="hero_section">
         <img class="lamps" src="/assets/images/lamps.png" alt="lamps">
         <div class="music-and-paragraph">
-            <p class="hero_para"> Hi, <br>
+            <p class="hero_para"> Hi <span id="receiver"></span>, <br>
                 You mean the world to me...
                 So in this Eid,
                 I made something for you!</p>
@@ -23,12 +24,71 @@
                 <img src="/assets/icons/music.svg" alt="music_icon">
                 <span class="eid_mubarak_music">&nbsp;&nbsp; Eid Mubarak Music &nbsp;</span>
                 <img class="playing_music_icon" src="/assets/icons/music playing.svg" alt="music_playing_icon">
-                <audio id="eidAudio" src="/assets/audio/Eid.mp3" controls></audio>
+                <audio id="eidAudio" src="/assets/audio/Eid.mp3" autoplay controls></audio>
             </div>
         </div>
-        <img class="hero_bottom_img first" src="/assets/images/img2.png" alt="">
-        <img class="hero_bottom_img second" src="/assets/images/img5.png" alt="">
+        <div class="hero_bottom_img_container">
+            <img class="hero_bottom_img first" src="/assets/images/img2.png" alt="">
+            <img class="hero_bottom_img second" src="/assets/images/img5.png" alt="">
+        </div>
     </section>
+    <!-- Hero Section End -->
+
+    <!-- Wishing Section Start -->
+    <section id="wishing_section">
+        <!-- Wishing Section Start -->
+        <div class="horizontal-divider">
+            <div class="horizontal-line"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="horizontal-line"></div>
+        </div>
+        <img class="eid_celebrating_img" src="/assets/images/img.png" alt="eid_celebrating_img">
+        <h2 class="wishingText">Wishing You a Blessed and Prosperous Eid</h2>
+        <!-- Wishing Section End -->
+
+        <!-- White Card Section Start -->
+        <div class="horizontal-divider">
+            <div class="horizontal-line"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="horizontal-line"></div>
+        </div>
+        <div class="white_card_container">
+            <img class="little_boy" src="/assets/images/boy.png" alt="boyWithWhiteCard">
+            <div class="white_card">
+                <p class="white_card_first">People say, “Eid, a celebration of joy and togetherness.”</p>
+                <p>You know what, I can feel the positivity and happiness. My goal is to learn web development and I’m
+                    learning everyday, even today!</p>
+            </div>
+        </div>
+        <!-- White Card Section End -->
+
+        <!-- Praying And Reading Quran Section Start -->
+        <div class="horizontal-divider">
+            <div class="horizontal-line"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="horizontal-line"></div>
+        </div>
+        <div class="praying_and_reading_quran">
+            <img src="/assets/images/boy reading quran.png" alt="boy reading quran">
+            <img src="/assets/images/boy  praying.png" alt="boy praying">
+        </div>
+        <!-- Praying And Reading Quran Section End -->
+
+        <!-- Thank You Section Start -->
+        <div class="thank_you_text_container">
+            <p>Eid Mubarak and,</p>
+            <h3>Thank You For Everything...</h3>
+        </div>
+        <p class="my_name">Made with 💜 By <span id="sender">Sakib Hassan</span></p>
+        <!-- Thank You Section Start -->
+    </section>
+    <!-- Wishing Section End -->
 
     <script src="/JS/app.js"></script>
 </body>
