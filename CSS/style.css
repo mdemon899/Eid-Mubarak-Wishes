@@ -1,0 +1,79 @@
+/* Common Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Salsa", cursive; */
+    /* font-family: "Style Script", cursive; */
+}
+
+body {
+    font-family: "Salsa", cursive, sans-serif;
+}
+
+#hero_section {
+    padding: 1px;
+    min-height: 100vh;
+    background: url(../assets/images/hero_bg.jpg) no-repeat center /cover;
+}
+
+.lamps {
+    width: 250px;
+}
+
+.hero_para {
+    font-size: 46px;
+    max-width: 400px;
+    margin: 35px 0px;
+}
+
+.music-and-paragraph {
+    margin-left: 15rem;
+    margin-top: -10rem;
+}
+
+
+audio::-webkit-media-controls-enclosure {
+    background-color: transparent;
+}
+
+.music_container {
+    max-width: max-content;
+    display: flex;
+    background: #fbd8a4;
+    border-radius: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.hero_bottom_img {
+    width: 250px;
+    margin: 3rem 0;
+}
+
+@media screen and (max-width: 800px) {
+    .music-and-paragraph {
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+
+    .first {
+        display: none;
+    }
+
+    .second {
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .eid_mubarak_music,
+    .playing_music_icon {
+        display: none;
+    }
+
+    .hero_para {
+        font-size: 32px;
+    }
+}
